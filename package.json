@@ -20,7 +20,6 @@
     "redux-thunk": "^2.3.0",
     "slick-carousel": "^1.8.1",
     "sweetalert": "^2.1.2",
-    "use-scroll-position": "^0.0.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

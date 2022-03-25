@@ -4,7 +4,7 @@ import React, { Component, useContext, useEffect } from "react";
 /// Scroll
 /// Link
 import { Link } from "react-router-dom";
-import useScrollPosition from "use-scroll-position";
+// import useScrollPosition from "use-scroll-position";
 import { ThemeContext } from "../../../context/ThemeContext";
 import PerfectScrollbar from "react-perfect-scrollbar";
 
@@ -53,7 +53,7 @@ const SideBar = () => {
         handleheartBlast.addEventListener('click', heartBlast);
 	
   }, []);
-  let scrollPosition = useScrollPosition();
+  // let scrollPosition = useScrollPosition();
   /// Path
   let path = window.location.pathname;
   path = path.split("/");
@@ -97,10 +97,10 @@ const SideBar = () => {
         sidebarposition.value === "fixed" &&
         sidebarLayout.value === "horizontal" &&
         headerposition.value === "static"
-          ? scrollPosition > 120
-            ? "fixed"
-            : ""
-          : ""
+          // ? scrollPosition > 120
+          //   ? "fixed"
+          //   : ""
+          // : ""
       }`}
     >
       <div className="deznav-scroll">
